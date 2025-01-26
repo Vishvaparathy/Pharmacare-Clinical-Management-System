@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pharma Care Clinical</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your stylesheet -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .contact-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contact-section h2 {
+            font-size: 36px;
+            color: #007bff;
+        }
+        .contact-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .contact-box {
+            border: 2px solid #007bff;
+            padding: 20px;
+            border-radius: 8px;
+            width: calc(25% - 20px);
+            text-align: center;
+        }
+        .contact-box i {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .contact-box p {
+            font-size: 18px;
+            color: #333;
+        }
+        .contact-map {
+            margin-top: 30px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Get in touch with Pharma Care Clinical. We are here to answer all your questions and provide you with the best healthcare services.</p>
+        </div>
+
+        <div class="contact-boxes">
+            <div class="contact-box">
+                <i class="material-icons">location_on</i>
+                <p><strong>Address:</strong><br>No. 123, Main Street, Cityname, Country.</p>
+            </div>
+            <div class="contact-box">
+                <i class="material-icons">phone</i>
+                <p><strong>Hot Line:</strong><br>+94 011 4000 200</p>
+            </div>
+            <div class="contact-box">
+                <i class="material-icons">phone_in_talk</i>
+                <p><strong>General:</strong><br>+94 112 586 123<br>+94 112 584 321<br>+94 112 597 654</p>
+            </div>
+            <div class="contact-box">
+                <i class="material-icons">email</i>
+                <p><strong>Email:</strong><br>contact@pharmacareclinical.com</p>
+            </div>
+        </div>
+
+        <div class="contact-map">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094144!2d144.95373531561686!3d-37.8162797420211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57798c62356b87!2sPharma%20Care%20Clinical!5e0!3m2!1sen!2slk!4v1619092633276!5m2!1sen!2slk"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
